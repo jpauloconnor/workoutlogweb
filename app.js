@@ -4,7 +4,7 @@ $(function() {
       var API_BASE =  "https://workout-log-api.herokuapp.com/api/";
 
       var userDefinitions = [];
-
+      var james = "";
       var setAuthHeader = function(sessionToken) {
          window.localStorage.setItem("sessionToken", sessionToken);
          // Set the authorization header
