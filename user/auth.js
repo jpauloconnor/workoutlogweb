@@ -84,7 +84,6 @@ $(function(){
          WorkoutLog.setAuthHeader(sessionToken);
          WorkoutLog.definition.fetchAll();
          WorkoutLog.log.fetchAll();
-         WorkoutLog.fetchAllFeeds();
          $(".disabled").removeClass("disabled");
          // change text of nav bar "login" to "logout"
          $("#loginout").text("Logout");
